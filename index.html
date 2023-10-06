@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Dice Roll</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Multiple Dice Roller</h1>
+      <div id="input-div">
+
+        <div class="inp" >
+
+          <label for="num-dice">Number of Dice</label>
+          <input type="number" id="num-dice" min="1"  value="1"/>
+
+        </div>
+
+        <div class="inp" >
+
+          <label for="num-sides">Number of Faces</label>
+          <input type="number" id="num-sides" min="2" value="6" />
+
+        </div>
+
+      </div>
+      <button id="startStopBtn">Roll Dice</button>
+
+      <div id="output"></div>
+      <div id="total"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

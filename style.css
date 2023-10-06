@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(191, 242, 191);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left:50%;
+  top:50%;
+  
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px rgb(134, 233, 134);
+}
+#container h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#input-div {
+  display: flex;
+  padding: 12px;
+  gap: 20px;
+  /* background-color: rosybrown; */
+}
+.inp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: teal; */
+}
+.inp input{
+    outline: none;
+    width:3rem;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+   
+}
+.inp label{
+    font-size: 15px;
+    font-weight: 550;
+    font-family:  "Arial Narrow", Arial, sans-serif;
+}
+
+
+#startStopBtn{
+    background-color: rgb(172, 239, 172);
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px  0 25px 0;
+    cursor: pointer;
+}
+
+
+#total{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
